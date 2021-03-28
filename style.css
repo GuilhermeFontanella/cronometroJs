@@ -18,19 +18,20 @@ body {
     font-family: 'Inconsolata', monospace;
     
 }
+.relogio {
+    height: 100vh;
+}
 .relogio div {
     font-size: 150px;
     color: chartreuse;
-    width: 100px;
-    
-    
+    width: 100px;   
 }
 .botoes {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    margin-top: -150px;
 }
 .botoes button {
     font-size: 20px;
