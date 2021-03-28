@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="relogio">
+            <div class="horas">
+                <span id="horas">00</span>
+            </div>
+            <div class="dois-pontos">
+                <span>:</span>
+            </div>
+            <div class="minutos">
+                <span id="minutos">00</span>
+            </div>
+            <div class="dois-pontos">
+                <span>:</span>
+            </div>
+            <div class="segundos">
+                <span id="segundos">00</span>
+            </div>
+            <div class="dois-pontos">
+                <span>:</span>
+            </div>
+            <div class="milesimos">
+                <span id="milesimos">00</span>
+            </div>   
+        </div>
+        <div class="botoes">
+            <div class="botoes-grupo">
+                <button type="button" class="btn btn-primary" id="inicio" onclick="start()">Inicio</button>
+                <button type="button" class="btn btn-primary" id="parar" onclick="stop()">Parar</button>
+                <button type="button" class="btn btn-primary" id="zerar" onclick="zero()">Zerar</button>
+            </div>  
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
